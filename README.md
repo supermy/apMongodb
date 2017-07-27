@@ -15,10 +15,10 @@ docker run -d -p 27017:27017 -v /someLocalVolume:/data/db supermy/ap-mongodb:lat
 docker exec -it supermy/ap-mongodb:latest sh
 ```
 
-#
+# 镜像构建指令
 
 ```
-    镜像构建指令
+    
     docker build -t supermy/ap-mongodb  mongodb 
 
 
